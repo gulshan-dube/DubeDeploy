@@ -58,6 +58,17 @@ DubeDeploy/
 ↳ samconfig.toml
 ↳ README.md
 
+DubeDeploy/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── hello_world/
+│   └── app.py
+├── template.yaml
+├── samconfig.toml
+├── README.md
+
+
 
 ---
 
