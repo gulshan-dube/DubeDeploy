@@ -1,4 +1,6 @@
-# 🚀 DubeDeploy – Automated AWS Lambda Deployment with SAM & GitHub Actions
+# 🚀 DubeDeploy
+
+Automated AWS Lambda Deployment with SAM & GitHub Actions
 
 DubeDeploy is a fully automated deployment pipeline for AWS Lambda using the Serverless Application Model (SAM) and GitHub Actions.  
 It allows you to write a simple Python function, push your code to GitHub, and automatically deploy it to AWS — no manual steps required.
