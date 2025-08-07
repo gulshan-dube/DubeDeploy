@@ -136,10 +136,12 @@ Make sure your AWS credentials are stored as GitHub secrets: AWS_ACCESS_KEY_ID a
 
 📦 SAM Commands (Used in Workflow)
 
-sam package \
+``` sam package \
   --template-file template.yaml \
   --output-template-file packaged.yaml \
   --s3-bucket aws-sam-cli-managed-default-samclisourcebucket-twoi2fbhlrju
+
+```
 
 sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
 
