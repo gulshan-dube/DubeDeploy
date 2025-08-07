@@ -1,3 +1,6 @@
+![Deploy Workflow](https://github.com/gulshan-dube/DubeDeploy/actions/workflows/deploy.yml/badge.svg)
+
+
 # 🚀 DubeDeploy
 
 Automated AWS Lambda Deployment with SAM & GitHub Actions
