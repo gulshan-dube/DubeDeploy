@@ -160,9 +160,13 @@ After pushing to GitHub, the workflow deploys:
 Visit: https://36th270ig1.execute-api.us-east-1.amazonaws.com/Prod/hello/
 
 You’ll see:
-Json
-{"message": "Hello, world!"}
 
+``` Json
+{
+    "message": "Hello, world!"
+}
+
+```
 
 ✅ With curl
 
