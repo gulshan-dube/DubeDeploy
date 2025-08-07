@@ -145,6 +145,28 @@ Make sure your AWS credentials are stored as GitHub secrets: AWS_ACCESS_KEY_ID a
 
 sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
 
+🪣 S3 Bucket
+SAM uses an S3 bucket to temporarily store packaged code before deployment. This bucket is automatically created and managed by SAM.
+
+Bucket used: aws-sam-cli-managed-default-samclisourcebucket-twoi2fbhlrju
+
+
+🧱 CloudFormation Stack
+SAM deploys resources using AWS CloudFormation. Stack Name: dube-lambda
+
+This stack includes:
+
+Lambda function
+
+IAM role
+
+API Gateway
+
+Permissions and configuration
+
+
+
+
 📤 Deployment Output
 After pushing to GitHub, the workflow deploys:
 
@@ -171,6 +193,20 @@ You’ll see:
 ✅ With curl
 
 curl "https://36th270ig1.execute-api.us-east-1.amazonaws.com/Prod/hello/"
+
+🧹 Cleanup Instructions
+To avoid charges, you can delete the following resources from the AWS Console:
+
+🧨 Lambda function Go to Lambda → Select → Delete
+
+🌐 API Gateway Go to API Gateway → Select API → Delete
+
+🪣 S3 Bucket Go to S3 → Select bucket → Empty → Delete
+
+🧱 CloudFormation Stack Go to CloudFormation → Select stack → Delete
+
+🔐 IAM Role (if not reused) Go to IAM → Roles → Select → Delete
+
 
 📄 Final Notes
 DubeDeploy is a hands-on example of how to build a CI/CD pipeline for serverless applications. It shows how GitHub Actions and AWS SAM can work together to automate deployments — making your workflow faster, safer, and more scalable.
