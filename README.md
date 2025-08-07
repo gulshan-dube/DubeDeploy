@@ -47,27 +47,14 @@ You write code, push it to GitHub, and it gets deployed to AWS Lambda without li
 
 ## 📁 Folder Structure
 
-## 📁 Folder Structure
-
-DubeDeploy/
-↳ .github/
-   ↳ workflows/deploy.yml
-↳ hello_world/
-   ↳ app.py
-↳ template.yaml
-↳ samconfig.toml
-↳ README.md
-
-DubeDeploy/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── hello_world/
-│   └── app.py
-├── template.yaml
-├── samconfig.toml
-├── README.md
-
+- `DubeDeploy/`
+  - `.github/`
+    - `workflows/deploy.yml`
+  - `hello_world/`
+    - `app.py`
+  - `template.yaml`
+  - `samconfig.toml`
+  - `README.md`
 
 
 ---
